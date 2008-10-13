@@ -1,2 +1,0 @@
-#summary How to extend the library by writing your own pattern component.
-#labels Draft
