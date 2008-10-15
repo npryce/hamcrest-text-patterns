@@ -1,5 +1,5 @@
 #summary How to extend the library with a new pattern component
-#labels How-To
+#labels How-To,Featured
 
 = Introduction =
 
@@ -23,7 +23,7 @@ public class AsciiControlCharacter implements PatternComponent {
 }
 }}}
 
-(You can ignore the groups parameter.  That's used by the {{capture(...)}} and {{valueOf(...)}} pattern components to identify capture groups by name.)
+(You can ignore the groups parameter.  That's used by the {{{capture(...)}}} and {{{valueOf(...)}}} pattern components to identify capture groups by name.)
 
 Finally, we should write a static function to make patterns that use this component easy to read.  For example, we could put factory functions for all the pattern components we need for our project in a single class and statically import them into the classes that use them.
 
